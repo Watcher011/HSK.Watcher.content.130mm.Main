@@ -5,5 +5,17 @@
   <ANTI.labelShort>Anti</ANTI.labelShort>
   <ANTI.description>Antimatter is a substance consisting of antiparticles that is not consistently formed in nature.</ANTI.description>
 
+  <Mine.label>Mining System</Mine.label>
+  <Mine.labelShort>MS</Mine.labelShort>
+  <Mine.description>The remote mining system is designed for the rapid creation of minefields in particularly dangerous areas.</Mine.description>
+
+  <FLMine.label>Reset System (Grenades)</FLMine.label>
+  <FLMine.labelShort>RS</FLMine.labelShort>
+  <FLMine.description>Remote grenade release system.</FLMine.description>
+
+  <FLEmi.label>EMP suppression system</FLEmi.label>
+  <FLEmi.labelShort>sEMPs</FLEmi.labelShort>
+  <FLEmi.description>EMI installation system.</FLEmi.description>
+
 
 </LanguageData>

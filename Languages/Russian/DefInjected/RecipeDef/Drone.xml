@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+
+  <MakeAmmo_DroneHowitzerShell_HE.label>Сделать ударный дрон x3</MakeAmmo_DroneHowitzerShell_HE.label>
+  <MakeAmmo_DroneHowitzerShell_HE.description>Сделать раудиоуправляемый дрон из подручных материалов.</MakeAmmo_DroneHowitzerShell_HE.description>
+  <MakeAmmo_DroneHowitzerShell_HE.jobString>Создаёт набор ударных дронов.</MakeAmmo_DroneHowitzerShell_HE.jobString>
+
+  <MakeAmmo_DroneHowitzerShell_EMI.label>Сделать  дрон поддержки x3</MakeAmmo_DroneHowitzerShell_EMI.label>
+  <MakeAmmo_DroneHowitzerShell_EMI.description>Сделать раудиоуправляемый дрон из подручных материалов.</MakeAmmo_DroneHowitzerShell_EMI.description>
+  <MakeAmmo_DroneHowitzerShell_EMI.jobString>Создаёт набор ударных дронов.</MakeAmmo_DroneHowitzerShell_EMI.jobString>
+
+  <MakeAmmo_DroneHowitzerShell_GRAN.label>Сделать дрон с гранатной подвеской x3</MakeAmmo_DroneHowitzerShell_GRAN.label>
+  <MakeAmmo_DroneHowitzerShell_GRAN.description>Сделать раудиоуправляемый дрон из подручных материалов.</MakeAmmo_DroneHowitzerShell_GRAN.description>
+  <MakeAmmo_DroneHowitzerShell_GRAN.jobString>Создаёт набор ударных дронов.</MakeAmmo_DroneHowitzerShell_GRAN.jobString>
+
+  <MakeAmmo_DroneHowitzerShell_MIN.label>Сделать ударный дрон Фурия</MakeAmmo_DroneHowitzerShell_MIN.label>
+  <MakeAmmo_DroneHowitzerShell_MIN.description>Сделать раудиоуправляемый дрон из подручных материалов.Дрон оснащён боеприпасами с анитматерией</MakeAmmo_DroneHowitzerShell_MIN.description>
+  <MakeAmmo_DroneHowitzerShell_MIN.jobString>СОздаёт набор ударных дронов.</MakeAmmo_DroneHowitzerShell_MIN.jobString>
+
+  <MakeAmmo_EngineDrone.label>Сделать двигатель ударного дрона.</MakeAmmo_EngineDrone.label>
+  <MakeAmmo_EngineDrone.description>Сделать Мини ДВС (ДВС – Двигатель Внутреннего Сгорания) – это небольшой двигатель внутреннего сгорания, предназначенный для применения в небольших машинах, устройствах или для специфических задач. Мини ДВС, как правило, имеет меньший рабочий объем и меньшую мощность по сравнению с ДВС, используемыми, например, в безпилотниках.</MakeAmmo_EngineDrone.description>
+  <MakeAmmo_EngineDrone.jobString>Создаёт ДВС ударного дрона.</MakeAmmo_EngineDrone.jobString>
+
+
+</LanguageData>
