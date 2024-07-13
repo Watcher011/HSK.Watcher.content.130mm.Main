@@ -12,6 +12,8 @@
     <explosionColorEdge>(1, 1, 1, 0.05)</explosionColorEdge>
     <soundExplosion>Explosion_Smoke</soundExplosion>
 	<harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+	  <overkillPctToDestroyPart>0~0.7</overkillPctToDestroyPart>
+	  <buildingDamageFactor>8</buildingDamageFactor>
 	<additionalHediffs>
       <li>
         <hediff>WhitePhosphorusInhalation</hediff>

@@ -29,4 +29,11 @@
     <labelShort>сЭМИп</labelShort>
     <description>Система установки эми помех.</description>
   </CombatExtended.AmmoCategoryDef>
+  
+   <CombatExtended.AmmoCategoryDef>
+    <defName>WPH</defName>
+    <label>Белый Фосфор (WPH)</label>
+    <labelShort>WPH</labelShort>
+    <description>Фосфорные боеприпасы.</description>
+  </CombatExtended.AmmoCategoryDef>
 </Defs>

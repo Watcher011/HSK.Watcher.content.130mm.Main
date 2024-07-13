@@ -17,5 +17,9 @@
   <FLEmi.labelShort>сЭМИп</FLEmi.labelShort>
   <FLEmi.description>Система установки эми помех.</FLEmi.description>
 
+  <WPH.label>Белый Фосфор (WPH)</WPH.label>
+  <WPH.labelShort>WPH</WPH.labelShort>
+  <WPH.description>Фосфорные боеприпасы.</WPH.description>
+
 
 </LanguageData>

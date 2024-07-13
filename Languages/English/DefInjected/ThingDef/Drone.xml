@@ -26,11 +26,37 @@
 
   <!-- direct fire -->
 
-  <Bullet_DroneHowitzerShell_HE_directfire.label>Дрон без управления (HE)</Bullet_DroneHowitzerShell_HE_directfire.label>
-  <Bullet_DroneHowitzerShell_EMI_directfire.label>Дрон без управления (emi)</Bullet_DroneHowitzerShell_EMI_directfire.label>
-  <Bullet_DroneHowitzerShell_GRAN_directfire.label>Виверна без управления </Bullet_DroneHowitzerShell_GRAN_directfire.label>
+  <Bullet_DroneHowitzerShell_HE_directfire.label>Drone without control (HE)</Bullet_DroneHowitzerShell_HE_directfire.label>
+  <Bullet_DroneHowitzerShell_EMI_directfire.label>Drone without control (emi)</Bullet_DroneHowitzerShell_EMI_directfire.label>
+  <Bullet_DroneHowitzerShell_GRAN_directfire.label>Drone without control</Bullet_DroneHowitzerShell_GRAN_directfire.label>
 
-  <Bullet_DroneHowitzerShell_MIN_directfire.label>Не управляемый дрон (Мины)</Bullet_DroneHowitzerShell_MIN_directfire.label>
+
+  <!-- <ThingDef ParentName="BaseDroneHowitzerShellDirectfire">
+		<defName>Bullet_DroneHowitzerShell_Incendiary_directfire</defName>
+		<label>Drone Howitzer shell (Incendiary)</label>
+		<graphicData>
+			<texPath>Things/Projectile/Cannon/Howitzer/INC</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<damageDef>PrometheumFlame</damageDef>
+			<damageAmountBase>31</damageAmountBase>
+			<explosionRadius>9.5</explosionRadius>
+			<preExplosionSpawnThingDef>FilthPrometheum</preExplosionSpawnThingDef>
+			<preExplosionSpawnChance>0.20</preExplosionSpawnChance>
+			<soundExplode>MortarIncendiary_Explode</soundExplode>
+		</projectile>
+		<comps>
+			<li Class="CombatExtended.CompProperties_ExplosiveCE">
+				<damageAmountBase>150</damageAmountBase>
+				<explosiveDamageType>Thermobaric</explosiveDamageType>
+				<explosiveRadius>4</explosiveRadius>
+				<applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
+			</li>
+		</comps>
+	</ThingDef> -->
+
+  <Bullet_DroneHowitzerShell_MIN_directfire.label>Uncontrolled drone (Mines)</Bullet_DroneHowitzerShell_MIN_directfire.label>
 
 
 </LanguageData>

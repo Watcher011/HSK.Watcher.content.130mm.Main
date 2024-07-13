@@ -27,8 +27,8 @@
     </graphicData>
 	<comps>
 		<li Class="SK.CompProperties_HeatPusherFenix">
-			<heatPushMaxTemperature>1000</heatPushMaxTemperature>
-			<heatPerSecond>200</heatPerSecond>
+			<heatPushMaxTemperature>10000</heatPushMaxTemperature>
+			<heatPerSecond>2000</heatPerSecond>
 		</li>
 		<li Class="CompProperties_Lifespan">
 			<lifespanTicks>900</lifespanTicks>

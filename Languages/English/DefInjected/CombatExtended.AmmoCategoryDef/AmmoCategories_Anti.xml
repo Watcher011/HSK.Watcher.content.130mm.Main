@@ -17,5 +17,9 @@
   <FLEmi.labelShort>sEMPs</FLEmi.labelShort>
   <FLEmi.description>EMI installation system.</FLEmi.description>
 
+  <WPH.label>White Phosphorus (WPH)</WPH.label>
+  <WPH.labelShort>WPH</WPH.labelShort>
+  <WPH.description>Phosphorus ammunition.</WPH.description>
+
 
 </LanguageData>

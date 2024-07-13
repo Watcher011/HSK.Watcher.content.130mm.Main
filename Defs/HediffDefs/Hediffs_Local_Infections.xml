@@ -8,7 +8,7 @@
 		<hediffClass>HediffWithComps</hediffClass>
 		<labelNoun>получил ожог глаз от белого фосфора</labelNoun>
 		<battleStateLabel>Choking</battleStateLabel>
-		<initialSeverity>0.3</initialSeverity>
+		<initialSeverity>0.01</initialSeverity>
 		<maxSeverity>1</maxSeverity>
 		<comps>
 		  <li Class="HediffCompProperties_SeverityPerDay">
@@ -66,6 +66,13 @@
 			<label>extreme</label>
 			<painOffset>0.8</painOffset>
 			<minSeverity>0.8</minSeverity>
+			 <statOffsets>
+                   <MoveSpeed>-0.8</MoveSpeed>
+				   <ArmorRating_Sharp>-1</ArmorRating_Sharp>
+                   <ArmorRating_Blunt>-1</ArmorRating_Blunt>
+                   <ArmorRating_Heat>-1</ArmorRating_Heat>
+				   <Flammability>2</Flammability>
+                </statOffsets>
 			<capMods>
 			  <li>
 				<capacity>Sight</capacity>
@@ -109,5 +116,4 @@
 		  </li>
 		</stages>
   </HediffDef>
-
 </Defs>
