@@ -154,6 +154,7 @@
 		<products>
 			<Ammo_50BMG_WhitePhosphorus>200</Ammo_50BMG_WhitePhosphorus>
 		</products>
+		<researchPrerequisite>Range_C2</researchPrerequisite>
 		<workAmount>5000</workAmount>
 	</RecipeDef>
 
