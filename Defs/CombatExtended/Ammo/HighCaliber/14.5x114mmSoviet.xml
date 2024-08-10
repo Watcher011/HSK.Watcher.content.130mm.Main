@@ -108,8 +108,8 @@
 
 	<RecipeDef ParentName="AdvancedAmmoRecipeBase">
 		<defName>MakeAmmo_145x114mm_WhitePhosphorus</defName>
-		<label>make 14.5x114mm (WhitePhosphorus) cartridge x200</label>
-		<description>Craft 200 14.5x114mm (WhitePhosphorus) cartridges.</description>
+		<label>make 14.5x114mm (WhitePhosphorus) cartridge x30</label>
+		<description>Craft 30 14.5x114mm (WhitePhosphorus) cartridges.</description>
 		<jobString>Making 14.5x114mm (WhitePhosphorus) cartridges.</jobString>
 		<ingredients>
 				<li>
@@ -158,7 +158,7 @@
 			</categories>
 		</fixedIngredientFilter>
 		<products>
-			<Ammo_145x114mm_WhitePhosphorus>200</Ammo_145x114mm_WhitePhosphorus>
+			<Ammo_145x114mm_WhitePhosphorus>30</Ammo_145x114mm_WhitePhosphorus>
 		</products>
 		<researchPrerequisite>Range_C2</researchPrerequisite>
 		<workAmount>10400</workAmount>

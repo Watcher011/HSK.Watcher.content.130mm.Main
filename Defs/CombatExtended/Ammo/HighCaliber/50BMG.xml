@@ -102,7 +102,7 @@
 
 	<RecipeDef ParentName="AmmoRecipeBase">
 		<defName>MakeAmmo_50BMG_WhitePhosphorus</defName>
-		<label>make .50 BMG (WhitePhosphorus) cartridge x200</label>
+		<label>make .50 BMG (WhitePhosphorus) cartridge x30</label>
 		<description>Craft 200 .50 BMG (WhitePhosphorus) cartridges.</description>
 		<jobString>Making .50 BMG (WhitePhosphorus) cartridges.</jobString>
 		<ingredients>
@@ -152,7 +152,7 @@
 			</categories>
 		</fixedIngredientFilter>
 		<products>
-			<Ammo_50BMG_WhitePhosphorus>200</Ammo_50BMG_WhitePhosphorus>
+			<Ammo_50BMG_WhitePhosphorus>30</Ammo_50BMG_WhitePhosphorus>
 		</products>
 		<researchPrerequisite>Range_C2</researchPrerequisite>
 		<workAmount>5000</workAmount>
