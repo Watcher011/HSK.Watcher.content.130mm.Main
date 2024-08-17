@@ -394,7 +394,6 @@
 			<explosionChanceToStartFire>1</explosionChanceToStartFire>
 			<applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
 			<explosionEffect>GiantExplosion</explosionEffect>
-			<applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
 			<soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>
 			<soundImpactAnticipate>MortarRound_PreImpact</soundImpactAnticipate>
 			<soundAmbient>RocketPropelledLoop_Big</soundAmbient>
