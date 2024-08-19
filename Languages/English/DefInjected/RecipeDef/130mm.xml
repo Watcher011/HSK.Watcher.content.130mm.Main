@@ -19,5 +19,9 @@
   <MakeAmmo_130mmRocketEMIMissile.description>Create 130mm EMI rockets.</MakeAmmo_130mmRocketEMIMissile.description>
   <MakeAmmo_130mmRocketEMIMissile.jobString>Creates 130mm EMI missiles.</MakeAmmo_130mmRocketEMIMissile.jobString>
 
+  <MakeAmmo_130mmRocketDeadlifeDustMissile.label>Make 130mm Zombie Rocket x1</MakeAmmo_130mmRocketDeadlifeDustMissile.label>
+  <MakeAmmo_130mmRocketDeadlifeDustMissile.description>Make 130mm Zombie Rocket x1.</MakeAmmo_130mmRocketDeadlifeDustMissile.description>
+  <MakeAmmo_130mmRocketDeadlifeDustMissile.jobString>Making 130mm Zombie Rocket.</MakeAmmo_130mmRocketDeadlifeDustMissile.jobString>
+
 
 </LanguageData>

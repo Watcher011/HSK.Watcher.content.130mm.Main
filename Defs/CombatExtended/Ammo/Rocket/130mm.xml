@@ -18,6 +18,7 @@
 			<Ammo_130mmRocketFLMissile>Bullet_130mmRocketFLMissile</Ammo_130mmRocketFLMissile>
 			<Ammo_130mmRocketAntiMissile>Bullet_130mmRocketAntiMissile</Ammo_130mmRocketAntiMissile>
 			<Ammo_130mmRocketEMIMissile>Bullet_130mmRocketEMIMissile</Ammo_130mmRocketEMIMissile>
+			<Ammo_130mmRocketDeadlifeDustMissile>Bullet_130mmRocketDeadlifeDustMissile</Ammo_130mmRocketDeadlifeDustMissile>
 		</ammoTypes>
 		<isMortarAmmoSet>true</isMortarAmmoSet>
 	</CombatExtended.AmmoSetDef>
@@ -30,6 +31,7 @@
 			<Ammo_130mmRocketFLMissile>Bullet_130mmRocketFLMissile_directfire</Ammo_130mmRocketFLMissile>
 			<Ammo_130mmRocketAntiMissile>Bullet_130mmRocketAntiMissile_directfire</Ammo_130mmRocketAntiMissile>
 			<Ammo_130mmRocketEMIMissile>Bullet_130mmRocketEMIMissile_directfire</Ammo_130mmRocketEMIMissile>
+			<Ammo_130mmRocketDeadlifeDustMissile>Bullet_130mmRocketDeadlifeDustMissile_directfire</Ammo_130mmRocketDeadlifeDustMissile>
 		</ammoTypes>
 		<isMortarAmmoSet>true</isMortarAmmoSet>
 	</CombatExtended.AmmoSetDef>
@@ -114,6 +116,20 @@
 			<MarketValue>673.94</MarketValue>
 		</statBases>
 		<ammoClass>GrenadeEMP</ammoClass>
+	</ThingDef>
+	
+	 <ThingDef Class="CombatExtended.AmmoDef" ParentName="130mmRocketMissileBase">
+		<defName>Ammo_130mmRocketDeadlifeDustMissile</defName>
+		<label>130mm «Пыль мертвой жизни» боеприпасы (DeadlifeDust)</label>
+		<description>130 mm  с начинкой «Пыльи мертвой жизни» последствия неизвестны.</description>
+		<graphicData>
+			<texPath>Things/DD</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>673.94</MarketValue>
+		</statBases>
+		<ammoClass>DD</ammoClass>
 	</ThingDef>
 
 	<!-- ================== Projectiles ================== -->
@@ -289,9 +305,53 @@
 			</li>
 		</comps>
 	</ThingDef>
+	
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="Base130mmRocketMissile">
+		<defName>Bullet_130mmRocketDeadlifeDustMissile</defName>
+		<label>130mm боеприпасы мертвой жизни(DeadlifeDust)</label>
+		<thingClass>CombatExtended.ProjectileCE_Explosive</thingClass>
+		<graphicData>
+			<texPath>Things/Projectile/130mmRocket</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+		<damageDef>Bomb</damageDef>
+			<damageAmountBase>150</damageAmountBase>
+			<explosionRadius>8</explosionRadius>
+			<explosionChanceToStartFire>0.02</explosionChanceToStartFire>
+			<explosionEffect>GiantExplosion</explosionEffect>
+			<soundExplode>Explosion_GiantBomb</soundExplode>
+			<applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
+			<ai_IsIncendiary>true</ai_IsIncendiary>
+			<armorPenetrationSharp>300</armorPenetrationSharp>
+			<armorPenetrationBlunt>37.525</armorPenetrationBlunt>
+			<bulletChanceToStartFire>0.4</bulletChanceToStartFire>
+			<shellingProps>
+				<damage>0.33</damage>
+			</shellingProps>
+		</projectile>
+		 
+		<comps>
+			<li Class="CombatExtended.CompProperties_ExplosiveCE">
+				<explosiveRadius>15.5</explosiveRadius>
+				 <explosiveDamageType>DeadlifeDust</explosiveDamageType>
+				  <postExplosionGasType>DeadlifeDust</postExplosionGasType>
+                 <wickTicks>150</wickTicks>
+				<damageAmountBase>256</damageAmountBase>
+			</li>
+			<li Class="CombatExtended.CompProperties_Fragments">
+				<fragments>
+					<Fragment_Large>180</Fragment_Large>
+					<Fragment_Small>190</Fragment_Small>
+				</fragments>
+			</li>
+		</comps>
+		 
+	</ThingDef>
 
 	<!-- direct fire-->
 	<ThingDef Name="Base130mmRocketMissileDirectfire" ParentName="BaseExplosiveBullet" Abstract="true">
+		<thingClass>CombatExtended.ProjectileCE_Explosive</thingClass>
 		<graphicData>
 			<shaderType>TransparentPostLight</shaderType>
 		</graphicData>
@@ -310,7 +370,6 @@
 <ThingDef ParentName="Base130mmRocketMissileDirectfire">
 		<defName>Bullet_130mmRocketMissile_directfire</defName>
 		<label>130mm осколочные  боеприпасы (HE)</label>
-		<thingClass>CombatExtended.ProjectileCE_Explosive</thingClass>
 		<graphicData>
 			<texPath>Things/Projectile/Cannon/Howitzer/HE</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -318,18 +377,9 @@
 		<projectile Class="CombatExtended.ProjectilePropertiesCE">
 			<damageDef>Bomb</damageDef>
 			<damageAmountBase>546</damageAmountBase>
-			<explosionRadius>5</explosionRadius>
-			<explosionChanceToStartFire>0.02</explosionChanceToStartFire>
-			<explosionEffect>GiantExplosion</explosionEffect>
-			<soundExplode>Explosion_GiantBomb</soundExplode>
+			<explosionRadius>5.5</explosionRadius>
+			<soundExplode>MortarBomb_Explode</soundExplode>
 			<applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
-			<soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>
-			<soundImpactAnticipate>MortarRound_PreImpact</soundImpactAnticipate>
-			<soundAmbient>RocketPropelledLoop_Big</soundAmbient>
-			<ai_IsIncendiary>true</ai_IsIncendiary>
-			<shellingProps>
-				<damage>0.33</damage>
-			</shellingProps>
 		</projectile>
 		<comps>
 			<li Class="CombatExtended.CompProperties_Fragments">
@@ -344,7 +394,6 @@
 	<ThingDef ParentName="Base130mmRocketMissileDirectfire">
 		<defName>Bullet_130mmRocketFLMissile_directfire</defName>
 		<label>130mm фосфорные боеприпасы (P)</label>
-		<thingClass>CombatExtended.ProjectileCE_Explosive</thingClass>
 		<graphicData>
 			<texPath>Things/Projectile/Cannon/Howitzer/HE</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -382,7 +431,6 @@
 	<ThingDef ParentName="Base130mmRocketMissileDirectfire">
 		<defName>Bullet_130mmRocketAntiMissile_directfire</defName>
 		<label>130мм Антиматериальные кластерные снаряды (Anti)</label>
-		<thingClass>CombatExtended.ProjectileCE_Explosive</thingClass>
 		<graphicData>
 			<texPath>Things/Projectile/Cannon/Howitzer/HE</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -394,7 +442,6 @@
 			<explosionChanceToStartFire>1</explosionChanceToStartFire>
 			<applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
 			<explosionEffect>GiantExplosion</explosionEffect>
-			<applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
 			<soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>
 			<soundImpactAnticipate>MortarRound_PreImpact</soundImpactAnticipate>
 			<soundAmbient>RocketPropelledLoop_Big</soundAmbient>
@@ -415,7 +462,6 @@
 	<ThingDef ParentName="Base130mmRocketMissileDirectfire">
 		<defName>Bullet_130mmRocketEMIMissile_directfire</defName>
 		<label>130mm ЭМИ боеприпасы (EMI)</label>
-		<thingClass>CombatExtended.ProjectileCE_Explosive</thingClass>
 		<graphicData>
 			<texPath>Things/Projectile/Cannon/Howitzer/HE</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -444,6 +490,48 @@
 		</comps>
 	</ThingDef>
 	
+	
+	
+	<ThingDef ParentName="Base130mmRocketMissileDirectfire">
+		<defName>Bullet_130mmRocketDeadlifeDustMissile_directfire</defName>
+		<label>130mm боеприпасы мертвой жизни(DeadlifeDust)</label>
+		<graphicData>
+			<texPath>Things/Projectile/Cannon/Howitzer/HE</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<damageDef>Bomb</damageDef>
+			<damageAmountBase>150</damageAmountBase>
+			<explosionRadius>8</explosionRadius>
+			<explosionChanceToStartFire>0.02</explosionChanceToStartFire>
+			<explosionEffect>GiantExplosion</explosionEffect>
+			<soundExplode>Explosion_GiantBomb</soundExplode>
+			<applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
+			<ai_IsIncendiary>true</ai_IsIncendiary>
+			<armorPenetrationSharp>300</armorPenetrationSharp>
+			<armorPenetrationBlunt>37.525</armorPenetrationBlunt>
+			<bulletChanceToStartFire>0.4</bulletChanceToStartFire>
+			<shellingProps>
+				<damage>0.33</damage>
+			</shellingProps>
+		</projectile>
+		 
+		<comps>
+		<li Class="CombatExtended.CompProperties_ExplosiveCE">
+				<explosiveRadius>15.5</explosiveRadius>
+				 <explosiveDamageType>DeadlifeDust</explosiveDamageType>
+				  <postExplosionGasType>DeadlifeDust</postExplosionGasType>
+                 <wickTicks>150</wickTicks>
+				<damageAmountBase>256</damageAmountBase>
+			</li>
+			<li Class="CombatExtended.CompProperties_Fragments">
+				<fragments>
+					<Fragment_Large>180</Fragment_Large>
+					<Fragment_Small>190</Fragment_Small>
+				</fragments>
+			</li>
+		</comps>
+	</ThingDef>
 	<!-- ==================== Recipes ========================== -->
 
 	<RecipeDef ParentName="AmmoRecipeBase">
@@ -474,7 +562,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>Chemfuel</li>
+						<li>Chemfuel</li> 
 					</thingDefs>
 				</filter>
 				<count>32</count>
@@ -727,4 +815,67 @@
 	</RecipeDef>
 
 
+ <RecipeDef ParentName="AmmoRecipeBase">
+		<defName>MakeAmmo_130mmRocketDeadlifeDustMissile</defName>
+		<label>Сделать 130mm зомби ракеты x1</label>
+		<description>Создать  130mm  зомби ракеты.</description>
+		<jobString>Создаёт 130mm зомби ракеты.</jobString>
+		<workAmount>2000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>SLDBar</li>
+						<li>USLDBar</li>
+					</categories>
+				</filter>
+				<count>34</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>HeavyBar</li>
+					</categories>
+				</filter>
+				<count>10</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Chemfuel</li>
+					</thingDefs>
+				</filter>
+				<count>50</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Bioferrite</li>
+					</thingDefs>
+				</filter>
+				<count>20</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+				<li>HeavyBar</li>
+			</categories>
+			<thingDefs>
+				<li>Chemfuel</li>
+				<li>Powder</li>
+				<li>Bioferrite</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_130mmRocketDeadlifeDustMissile>1</Ammo_130mmRocketDeadlifeDustMissile>
+		</products>
+		<skillRequirements>
+			<Crafting>4</Crafting>
+		</skillRequirements>
+		<workSkill>Crafting</workSkill>
+		<workSkillLearnFactor>0.8</workSkillLearnFactor>
+		<researchPrerequisite>Range_C2</researchPrerequisite>
+	</RecipeDef>
 </Defs>

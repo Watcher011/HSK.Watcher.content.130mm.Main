@@ -21,5 +21,9 @@
   <WPH.labelShort>WPH</WPH.labelShort>
   <WPH.description>Phosphorus ammunition.</WPH.description>
 
+  <DD.label>Dead life Dust(DeadlifeDust)</DD.label>
+  <DD.labelShort>DD</DD.labelShort>
+  <DD.description>Dead life Dust.</DD.description>
+
 
 </LanguageData>

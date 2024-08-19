@@ -36,4 +36,11 @@
     <labelShort>WPH</labelShort>
     <description>Фосфорные боеприпасы.</description>
   </CombatExtended.AmmoCategoryDef>
+  
+   <CombatExtended.AmmoCategoryDef>
+    <defName>DD</defName>
+    <label>Пыль мертвой жизни(DeadlifeDust)</label>
+    <labelShort>DD</labelShort>
+    <description>Пыль мертвой жизни.</description>
+  </CombatExtended.AmmoCategoryDef>
 </Defs>

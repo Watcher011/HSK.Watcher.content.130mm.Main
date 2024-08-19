@@ -19,5 +19,9 @@
   <MakeAmmo_130mmRocketEMIMissile.description>Создать  130mm  EMI ракеты.</MakeAmmo_130mmRocketEMIMissile.description>
   <MakeAmmo_130mmRocketEMIMissile.jobString>Создаёт 130mm EMI ракеты.</MakeAmmo_130mmRocketEMIMissile.jobString>
 
+  <MakeAmmo_130mmRocketDeadlifeDustMissile.label>Сделать 130mm зомби ракеты x1</MakeAmmo_130mmRocketDeadlifeDustMissile.label>
+  <MakeAmmo_130mmRocketDeadlifeDustMissile.description>Создать  130mm  зомби ракеты.</MakeAmmo_130mmRocketDeadlifeDustMissile.description>
+  <MakeAmmo_130mmRocketDeadlifeDustMissile.jobString>Создаёт 130mm зомби ракеты.</MakeAmmo_130mmRocketDeadlifeDustMissile.jobString>
+
 
 </LanguageData>

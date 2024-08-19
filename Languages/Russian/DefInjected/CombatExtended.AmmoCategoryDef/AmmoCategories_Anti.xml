@@ -21,5 +21,9 @@
   <WPH.labelShort>WPH</WPH.labelShort>
   <WPH.description>Фосфорные боеприпасы.</WPH.description>
 
+  <DD.label>Пыль мертвой жизни(DeadlifeDust)</DD.label>
+  <DD.labelShort>DD</DD.labelShort>
+  <DD.description>Пыль мертвой жизни.</DD.description>
+
 
 </LanguageData>
