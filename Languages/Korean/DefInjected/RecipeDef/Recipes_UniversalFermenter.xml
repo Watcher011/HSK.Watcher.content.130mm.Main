@@ -1,9 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <ExtractPhosphorus.label>Получение белого фосфора</ExtractPhosphorus.label>
-  <ExtractPhosphorus.description>Получение белого фосфора</ExtractPhosphorus.description>
-  <ExtractPhosphorus.jobString>Получает белый фосфор.</ExtractPhosphorus.jobString>
-
-
+ <ExtractPhosphorus.label>백린 얻기</ExtractPhosphorus.label>
+ <ExtractPhosphorus.description>백린 얻기</ExtractPhosphorus.description>
+ <ExtractPhosphorus.jobString>백린탄을 받습니다.</ExtractPhosphorus.jobString>
 </LanguageData>

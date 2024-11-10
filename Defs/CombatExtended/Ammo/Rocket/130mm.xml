@@ -336,7 +336,6 @@
 				<explosiveRadius>15.5</explosiveRadius>
 				 <explosiveDamageType>DeadlifeDust</explosiveDamageType>
 				  <postExplosionGasType>DeadlifeDust</postExplosionGasType>
-                 <wickTicks>150</wickTicks>
 				<damageAmountBase>256</damageAmountBase>
 			</li>
 			<li Class="CombatExtended.CompProperties_Fragments">
@@ -521,7 +520,6 @@
 				<explosiveRadius>15.5</explosiveRadius>
 				 <explosiveDamageType>DeadlifeDust</explosiveDamageType>
 				  <postExplosionGasType>DeadlifeDust</postExplosionGasType>
-                 <wickTicks>150</wickTicks>
 				<damageAmountBase>256</damageAmountBase>
 			</li>
 			<li Class="CombatExtended.CompProperties_Fragments">

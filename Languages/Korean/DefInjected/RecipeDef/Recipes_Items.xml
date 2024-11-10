@@ -1,9 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
-  <MakeTrapFrag.label>Создание коробки Противопехотные мины  6 мин</MakeTrapFrag.label>
-  <MakeTrapFrag.description>Создание коробки с Противопехотными  6 минами.</MakeTrapFrag.description>
-  <MakeTrapFrag.jobString>Создаёт набор мин.</MakeTrapFrag.jobString>
-
+<MakeTrapFrag.label>상자 제작 대인지뢰 6분</MakeTrapFrag.label>
+ <MakeTrapFrag.description>6개의 대인 지뢰가 있는 상자 만들기</MakeTrapFrag.description>
+ <MakeTrapFrag.jobString>분 세트를 생성합니다.</MakeTrapFrag.jobString>
 
 </LanguageData>

@@ -3,8 +3,7 @@
 
   <!-- EMI dynamo -->
 
-  <EMIDynamoDron.label>ЭМИ подавитель</EMIDynamoDron.label>
-  <EMIDynamoDron.description>ЭМИ подавитель</EMIDynamoDron.description>
-
+<EMIDynamoDron.label>EMP 억제기</EMIDynamoDron.label>
+ <EMIDynamoDron.description>EMP 억제기</EMIDynamoDron.description>
 
 </LanguageData>

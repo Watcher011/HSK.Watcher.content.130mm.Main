@@ -3,8 +3,6 @@
 
   <!-- AmmoSet -->
 
-  <AmmoSet_155mmHowitzerShell.label>155mm howitzer shells</AmmoSet_155mmHowitzerShell.label>
-  <AmmoSet_155mmHowitzerShell_directfire.label>155mm howitzer shells</AmmoSet_155mmHowitzerShell_directfire.label>
-
-
+<AmmoSet_155mmHowitzerShell.label>155mm 곡사포 포탄</AmmoSet_155mmHowitzerShell.label>
+ <AmmoSet_155mmHowitzerShell_directfire.label>155mm 곡사포 포탄</AmmoSet_155mmHowitzerShell_directfire.label>
 </LanguageData>

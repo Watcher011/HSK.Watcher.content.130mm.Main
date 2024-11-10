@@ -3,38 +3,36 @@
 
   <!-- Ammo -->
 
-  <Ammo_130mmRocketMissile.label>130mm осколочные  боеприпасы (HE)</Ammo_130mmRocketMissile.label>
-  <Ammo_130mmRocketMissile.description>130mm  снаряды что запрещены конвенциями мира.</Ammo_130mmRocketMissile.description>
+ <Ammo_130mmRocketMissile.label>130mm 파편 탄약(HE)</Ammo_130mmRocketMissile.label>
+ <Ammo_130mmRocketMissile.description>세계 협약에 의해 금지된 130mm 포탄.</Ammo_130mmRocketMissile.description>
 
-  <Ammo_130mmRocketFLMissile.label>130mm фосфорные боеприпасы (P)</Ammo_130mmRocketFLMissile.label>
-  <Ammo_130mmRocketFLMissile.description>130 mm  с начинкой из белого фосфора ,созданы по патенту фирмы Parabellum.Не гуманное оружие что запрещено во множестве миров.</Ammo_130mmRocketFLMissile.description>
+ <Ammo_130mmRocketFLMissile.label>130mm 인 탄약(P)</Ammo_130mmRocketFLMissile.label>
+ <Ammo_130mmRocketFLMissile.description>파라벨럼 특허에 따라 제작된 백린탄을 채운 130mm 무기로 많은 세계에서 금지되어 있습니다.</Ammo_130mmRocketFLMissile.description>
 
-  <Ammo_130mmRocketAntiMissile.label>130mm Антиматериальные боеприпасы (Anti)</Ammo_130mmRocketAntiMissile.label>
-  <Ammo_130mmRocketAntiMissile.description>130 mm  с начинкой из антиматерии, одна капсула антиматерии способна год питать энергией мегаполис, а мы обстреливаем ей рейдеров.</Ammo_130mmRocketAntiMissile.description>
+ <Ammo_130mmRocketAntiMissile.label>130mm 대물 탄약(대)</Ammo_130mmRocketAntiMissile.label>
+ <Ammo_130mmRocketAntiMissile.description>반물질로 채워진 130mm의 반물질 캡슐 하나로 대도시에 1년 동안 전력을 공급할 수 있으며 우리는 그것을 침입자에게 발사합니다.</Ammo_130mmRocketAntiMissile.description>
 
-  <Ammo_130mmRocketEMIMissile.label>130mm ЭМИ боеприпасы (EMI)</Ammo_130mmRocketEMIMissile.label>
-  <Ammo_130mmRocketEMIMissile.description>130 mm  с  эми начинкой мгновенно выключаяет щиты, турели, миномёты и отключает механоидов на 25 секунд.</Ammo_130mmRocketEMIMissile.description>
+ <Ammo_130mmRocketEMIMissile.label>130mm EMP 탄약(EMI)</Ammo_130mmRocketEMIMissile.label>
+ <Ammo_130mmRocketEMIMissile.description>130mm에 EMI를 충전하면 방어막, 포탑, 박격포가 즉시 꺼지고 메카노이드가 25초 동안 비활성화됩니다.</Ammo_130mmRocketEMIMissile.description>
 
-  <Ammo_130mmRocketDeadlifeDustMissile.label>130mm «Пыль мертвой жизни» боеприпасы (DeadlifeDust)</Ammo_130mmRocketDeadlifeDustMissile.label>
-  <Ammo_130mmRocketDeadlifeDustMissile.description>130 mm  с начинкой «Пыльи мертвой жизни» последствия неизвестны.</Ammo_130mmRocketDeadlifeDustMissile.description>
-
-
-  <!-- Projectiles -->
-
-  <Bullet_130mmRocketMissile.label>130mm осколочные  боеприпасы (HE)</Bullet_130mmRocketMissile.label>
-  <Bullet_130mmRocketFLMissile.label>130mm фосфорные боеприпасы (P)</Bullet_130mmRocketFLMissile.label>
-  <Bullet_130mmRocketAntiMissile.label>130мм кластерная антиматериальная ракета(Anti)</Bullet_130mmRocketAntiMissile.label>
-  <Bullet_130mmRocketEMIMissile.label>130mm ЭМИ боеприпасы (EMI)</Bullet_130mmRocketEMIMissile.label>
-  <Bullet_130mmRocketDeadlifeDustMissile.label>130mm боеприпасы мертвой жизни(DeadlifeDust)</Bullet_130mmRocketDeadlifeDustMissile.label>
+ <Ammo_130mmRocketDeadlifeDustMissile.label>130mm "죽은 생명의 먼지" 탄약(DeadlifeDust)</Ammo_130mmRocketDeadlifeDustMissile.label>
+ <Ammo_130mmRocketDeadlifeDustMissile.description>130mm에 "죽은 생명의 먼지"가 채워져 있으며 결과는 알 수 없습니다.</Ammo_130mmRocketDeadlifeDustMissile.description>
 
 
-  <!-- direct fire -->
+ <!-- 발사체 -->
 
-  <Bullet_130mmRocketMissile_directfire.label>130mm осколочные  боеприпасы (HE)</Bullet_130mmRocketMissile_directfire.label>
-  <Bullet_130mmRocketFLMissile_directfire.label>130mm фосфорные боеприпасы (P)</Bullet_130mmRocketFLMissile_directfire.label>
-  <Bullet_130mmRocketAntiMissile_directfire.label>130мм Антиматериальные кластерные снаряды (Anti)</Bullet_130mmRocketAntiMissile_directfire.label>
-  <Bullet_130mmRocketEMIMissile_directfire.label>130mm ЭМИ боеприпасы (EMI)</Bullet_130mmRocketEMIMissile_directfire.label>
-  <Bullet_130mmRocketDeadlifeDustMissile_directfire.label>130mm боеприпасы мертвой жизни(DeadlifeDust)</Bullet_130mmRocketDeadlifeDustMissile_directfire.label>
+ <Bullet_130mmRocketMissile.label>130mm 파편 탄약(HE)</Bullet_130mmRocketMissile.label>
+ <Bullet_130mmRocketFLMissile.label>130mm 인 탄약(P)</Bullet_130mmRocketFLMissile.label>
+ <Bullet_130mmRocketAntiMissile.label>130mm 클러스터 대물질 로켓(안티)</Bullet_130mmRocketAntiMissile.label>
+ <Bullet_130mmRocketEMIMissile.label>130mm EMI 탄약(EMI)</Bullet_130mmRocketEMIMissile.label>
+ <Bullet_130mmRocketDeadlifeDustMissile.label>130mm DeadlifeDust 탄약</Bullet_130mmRocketDeadlifeDustMissile.label>
 
 
+ <!-- 직접 사격 -->
+
+ <Bullet_130mmRocketMissile_directfire.label>130mm 파편 탄약(HE)</Bullet_130mmRocketMissile_directfire.label>
+ <Bullet_130mmRocketFLMissile_directfire.label>130mm 인탄(P)</Bullet_130mmRocketFLMissile_directfire.label>
+ <Bullet_130mmRocketAntiMissile_directfire.label>130mm 대물 클러스터 발사체(안티)</Bullet_130mmRocketAntiMissile_directfire.label>
+ <Bullet_130mmRocketEMIMissile_directfire.label>130mm EMI 탄약</Bullet_130mmRocketEMIMissile_directfire.label>
+ <Bullet_130mmRocketDeadlifeDustMissile_directfire.label>130mm DeadlifeDust 탄약</Bullet_130mmRocketDeadlifeDustMissile_directfire.label>
 </LanguageData>

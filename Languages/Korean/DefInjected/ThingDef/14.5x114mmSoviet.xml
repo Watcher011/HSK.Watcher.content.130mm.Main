@@ -3,13 +3,11 @@
 
   <!-- Ammo -->
 
-  <Ammo_145x114mm_WhitePhosphorus.label>14.5x114mm (WhitePhosphorus)</Ammo_145x114mm_WhitePhosphorus.label>
-  <Ammo_145x114mm_WhitePhosphorus.description>Old-school anti-tank cartridge originally designed for AT rifles, it is also used by a number of heavy machine guns.</Ammo_145x114mm_WhitePhosphorus.description>
+<Ammo_145x114mm_WhitePhosphorus.label>14.5x114mm (백인)</Ammo_145x114mm_WhitePhosphorus.label>
+ <Ammo_145x114mm_WhitePhosphorus.description>원래 AT 소총용으로 설계된 구식 대전차 카트리지로 다양한 중기관총에도 사용됩니다.</Ammo_145x114mm_WhitePhosphorus.description>
 
 
-  <!-- Projectiles -->
+ <!-- 발사체 -->
 
-  <Bullet_145x114mm_WhitePhosphorus.label>14.5x114mm bullet (WhitePhosphorus)</Bullet_145x114mm_WhitePhosphorus.label>
-
-
+ <Bullet_145x114mm_WhitePhosphorus.label>14.5x114mm 총알(WhitePhosphorus)</Bullet_145x114mm_WhitePhosphorus.label>
 </LanguageData>

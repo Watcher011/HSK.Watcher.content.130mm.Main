@@ -1,29 +1,30 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <ANTI.label>Антивещество́</ANTI.label>
-  <ANTI.labelShort>Anti</ANTI.labelShort>
-  <ANTI.description>Антивещество́ — вещество, состоящее из античастиц, стабильно не образующееся в природе.</ANTI.description>
+ 
 
-  <Mine.label>Cистема Mинирования</Mine.label>
-  <Mine.labelShort>СМ</Mine.labelShort>
-  <Mine.description>Система дистанционного минирования - предназначена для оперативного создания минных полей на особо опасных направлениях.</Mine.description>
+<ANTI.label>반물질</ANTI.label>
+ <ANTI.labelShort>안티</ANTI.labelShort>
+ <ANTI.description>반물질은 자연계에서 일관되게 형성되지 않는 반입자로 구성된 물질입니다.</ANTI.description>
 
-  <FLMine.label>Cистема Сброса</FLMine.label>
-  <FLMine.labelShort>СБ</FLMine.labelShort>
-  <FLMine.description>Система дистанционного сброса гранат.</FLMine.description>
+ <Mine.label>광산 시스템</Mine.label>
+ <Mine.labelShort>CM</Mine.labelShort>
+ <Mine.description>원격 채굴 시스템 - 특히 위험한 방향에 지뢰밭을 빠르게 생성하도록 설계되었습니다.</Mine.description>
 
-  <FLEmi.label>Система ЭМИ подавления</FLEmi.label>
-  <FLEmi.labelShort>сЭМИп</FLEmi.labelShort>
-  <FLEmi.description>Система установки эми помех.</FLEmi.description>
+ <FLMine.label>시스템 재설정</FLMine.label>
+ <FLMine.labelShort>SAT</FLMine.labelShort>
+ <FLMine.description>원격 수류탄 투하 시스템.</FLMine.description>
 
-  <WPH.label>Белый Фосфор (WPH)</WPH.label>
-  <WPH.labelShort>WPH</WPH.labelShort>
-  <WPH.description>Фосфорные боеприпасы.</WPH.description>
+ <FLEmi.label>EMR 억제 시스템</FLEmi.label>
+ <FLEmi.labelShort>EMIP 포함</FLEmi.labelShort>
+ <FLEmi.description>EMI 전파 방해 시스템.</FLEmi.description>
 
-  <DD.label>Пыль мертвой жизни(DeadlifeDust)</DD.label>
-  <DD.labelShort>DD</DD.labelShort>
-  <DD.description>Пыль мертвой жизни.</DD.description>
+ <WPH.label>백린(WPH)</WPH.label>
+ <WPH.labelShort>WPH</WPH.labelShort>
+ <WPH.description>인 탄약.</WPH.description>
 
+ <DD.label>DeadlifeDust</DD.label>
+ <DD.labelShort>DD</DD.labelShort>
+ <DD.description>죽은 생명의 먼지</DD.description>
 
 </LanguageData>

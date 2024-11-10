@@ -3,10 +3,9 @@
 
   <!-- EMI dynamo -->
 
-  <EMIFieldDron.label>EMI Глушилка</EMIFieldDron.label>
-  <EMIFieldDron.description>Устройство что излучает поле электромагнитных помех, выводя из строя электрические устройства.</EMIFieldDron.description>
-  <EMIFieldDron.endMessage>ЭМИ подавитель отключен.</EMIFieldDron.endMessage>
-  <EMIFieldDron.letterText>Запущен ЭМИ подавитель.</EMIFieldDron.letterText>
-
+<EMIFieldDron.label>EMI 방해 전파</EMIFieldDron.label>
+ <EMIFieldDron.description>전자기 간섭 필드를 방출하여 전기 장치를 비활성화하는 장치입니다.</EMIFieldDron.description>
+ <EMIFieldDron.endMessage>EMF 억제 장치가 비활성화되었습니다.</EMIFieldDron.endMessage>
+ <EMIFieldDron.letterText>EMF 억제 장치가 시작되었습니다.</EMIFieldDron.letterText>
 
 </LanguageData>

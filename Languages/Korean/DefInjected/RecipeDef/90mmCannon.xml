@@ -2,10 +2,8 @@
 <LanguageData>
 
   <!-- Recipes -->
-
-  <MakeAmmo_90mmCannonShell_WhitePhosphorus.label>make 90mm White Phosphorus cannon shells x5</MakeAmmo_90mmCannonShell_WhitePhosphorus.label>
-  <MakeAmmo_90mmCannonShell_WhitePhosphorus.description>Craft 5 90mm White Phosphorus cannon shells.</MakeAmmo_90mmCannonShell_WhitePhosphorus.description>
-  <MakeAmmo_90mmCannonShell_WhitePhosphorus.jobString>Making 90mm White Phosphorus cannon shells.</MakeAmmo_90mmCannonShell_WhitePhosphorus.jobString>
-
+<MakeAmmo_90mmCannonShell_WhitePhosphorus.label>90mm 백린 대포 탄환 5개 만들기</MakeAmmo_90mmCannonShell_WhitePhosphorus.label>
+ <MakeAmmo_90mmCannonShell_WhitePhosphorus.description>5개의 90mm 백린 대포를 제작하세요.</MakeAmmo_90mmCannonShell_WhitePhosphorus.description>
+ <MakeAmmo_90mmCannonShell_WhitePhosphorus.jobString>90mm 백린 대포 포탄 만들기.</MakeAmmo_90mmCannonShell_WhitePhosphorus.jobString>
 
 </LanguageData>

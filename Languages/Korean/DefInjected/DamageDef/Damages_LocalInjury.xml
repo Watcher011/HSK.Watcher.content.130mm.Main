@@ -1,8 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
-  <WhitePhosphorus.label>Белый фосфор</WhitePhosphorus.label>
-  <WhitePhosphorus.deathMessage>{0} has been killed.</WhitePhosphorus.deathMessage>
-
-
+<WhitePhosphorus.label>백린</WhitePhosphorus.label>
+ <WhitePhosphorus.deathMessage>{0}이(가) 사망했습니다.</WhitePhosphorus.deathMessage>
 </LanguageData>
