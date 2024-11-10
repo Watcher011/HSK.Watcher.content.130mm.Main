@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <WhitePhosphorusInhalation.label>Белый фосфор</WhitePhosphorusInhalation.label>
+  <WhitePhosphorusInhalation.description>Пары белого фосфора</WhitePhosphorusInhalation.description>
+  <WhitePhosphorusInhalation.stages.0.label>minor</WhitePhosphorusInhalation.stages.0.label>
+  <WhitePhosphorusInhalation.stages.1.label>moderate</WhitePhosphorusInhalation.stages.1.label>
+  <WhitePhosphorusInhalation.stages.2.label>severe</WhitePhosphorusInhalation.stages.2.label>
+  <WhitePhosphorusInhalation.stages.3.label>extreme</WhitePhosphorusInhalation.stages.3.label>
+  <WhitePhosphorusInhalation.labelNoun>получил ожог глаз от белого фосфора</WhitePhosphorusInhalation.labelNoun>
+
+
+</LanguageData>
