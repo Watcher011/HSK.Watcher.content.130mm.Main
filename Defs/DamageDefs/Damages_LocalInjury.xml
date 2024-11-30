@@ -28,4 +28,24 @@
   
 
 	
+	<DamageDef ParentName="Nerve">
+   <defName>BioGas</defName>
+      <label>Чумные споры</label>
+    <minDamageToFragment>0</minDamageToFragment>
+    <defaultDamage>0</defaultDamage>
+    <explosionHeatEnergyPerCell>1</explosionHeatEnergyPerCell>
+    <explosionCellFleck>BlastDry</explosionCellFleck>
+	<explosionColorEdge>(0.306, 0.239, 0.09, 0.05)</explosionColorEdge>
+    <soundExplosion>Explosion_Smoke</soundExplosion>
+	<harmsHealth>true</harmsHealth>
+	<harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+	  <overkillPctToDestroyPart>0~0.7</overkillPctToDestroyPart>
+	  <buildingDamageFactor>0</buildingDamageFactor>
+	<additionalHediffs>
+      <li>
+        <hediff>PlagueMod</hediff>
+        <severityPerDamageDealt>0.1</severityPerDamageDealt>
+      </li>
+    </additionalHediffs>
+  </DamageDef>
 </Defs>

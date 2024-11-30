@@ -44,4 +44,33 @@
     </gas>
   </ThingDef>
     
+	
+	<ThingDef ParentName="BaseGas">
+    <defName>Bio_Smoke</defName>
+    <label>Споры</label>
+	<useHitPoints>true</useHitPoints>
+	<thingClass>ThingWithComps</thingClass>
+    <graphicData>
+		<graphicClass>Graphic_Gas</graphicClass>
+		<shaderType>Transparent</shaderType>
+		<texPath>Things/Gas/Puff</texPath>
+		<drawSize>2.2</drawSize>
+		<color>(0.5,0.2,0.4,0.5)</color>
+    </graphicData>
+	<comps>
+		<li Class="CompProperties_Lifespan">
+			<lifespanTicks>1900</lifespanTicks>
+		</li>
+	</comps>
+	<statBases>
+      <MaxHitPoints>75</MaxHitPoints>
+      <Flammability>0.0</Flammability>
+    </statBases>
+    <gas>
+      <expireSeconds>100~150</expireSeconds>
+      <rotationSpeed>10</rotationSpeed>
+    </gas>
+  </ThingDef>
+	
+	
 </Defs>

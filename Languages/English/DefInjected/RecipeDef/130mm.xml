@@ -23,5 +23,7 @@
   <MakeAmmo_130mmRocketDeadlifeDustMissile.description>Make 130mm Zombie Rocket x1.</MakeAmmo_130mmRocketDeadlifeDustMissile.description>
   <MakeAmmo_130mmRocketDeadlifeDustMissile.jobString>Making 130mm Zombie Rocket.</MakeAmmo_130mmRocketDeadlifeDustMissile.jobString>
 
-
+ <MakeAmmo_130mmRocketBio.label>Make a 130mm Rocket with a modified plague strain x1</MakeAmmo_130mmRocketBio.label>
+<MakeAmmo_130mmRocketBio.description>Make 130mm Bio Rockets.</MakeAmmo_130mmRocketBio.description>
+<MakeAmmo_130mmRocketBio.jobString>Make 130mm Bio Rockets.</MakeAmmo_130mmRocketBio.jobString>
 </LanguageData>

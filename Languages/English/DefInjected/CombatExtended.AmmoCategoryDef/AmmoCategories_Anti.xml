@@ -25,5 +25,8 @@
   <DD.labelShort>DD</DD.labelShort>
   <DD.description>Dead life Dust.</DD.description>
 
+  <Bio.label>Bio weapons</Bio.label>
+<Bio.labelShort>Bio</Bio.labelShort>
+<Bio.description>Biological weapons are weapons of mass destruction that, by spreading living organisms or infectious microbes, cause illness or death in humans, animals, or plants.</Bio.description>
 
 </LanguageData>

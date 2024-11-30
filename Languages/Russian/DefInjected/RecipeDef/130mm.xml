@@ -23,5 +23,9 @@
   <MakeAmmo_130mmRocketDeadlifeDustMissile.description>Создать  130mm  зомби ракеты.</MakeAmmo_130mmRocketDeadlifeDustMissile.description>
   <MakeAmmo_130mmRocketDeadlifeDustMissile.jobString>Создаёт 130mm зомби ракеты.</MakeAmmo_130mmRocketDeadlifeDustMissile.jobString>
 
+  <MakeAmmo_130mmRocketBio.label>Сделать 130mm  ракету c модифицированным штамом чумы x1</MakeAmmo_130mmRocketBio.label>
+  <MakeAmmo_130mmRocketBio.description>Создать  130mm  био ракеты.</MakeAmmo_130mmRocketBio.description>
+  <MakeAmmo_130mmRocketBio.jobString>Создаёт 130mm био ракеты.</MakeAmmo_130mmRocketBio.jobString>
+
 
 </LanguageData>

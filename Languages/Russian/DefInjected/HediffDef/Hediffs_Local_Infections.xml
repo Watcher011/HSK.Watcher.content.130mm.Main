@@ -9,5 +9,9 @@
   <WhitePhosphorusInhalation.stages.3.label>экстремальный</WhitePhosphorusInhalation.stages.3.label>
   <WhitePhosphorusInhalation.labelNoun>получил ожог глаз от белого фосфора</WhitePhosphorusInhalation.labelNoun>
 
+  <PlagueMod.label>Био Чума</PlagueMod.label>
+  <PlagueMod.description>Усиленная версия Чумы.</PlagueMod.description>
+  <PlagueMod.stages.0.label>☣</PlagueMod.stages.0.label>
+
 
 </LanguageData>

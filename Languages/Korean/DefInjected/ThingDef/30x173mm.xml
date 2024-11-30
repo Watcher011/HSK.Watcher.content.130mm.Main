@@ -2,11 +2,16 @@
 <LanguageData>
 
   <!-- Ammo -->
-<Ammo_30x173mm_WhitePhosphorus.label>30x173mm 카트리지(백린)</Ammo_30x173mm_WhitePhosphorus.label>
- <Ammo_30x173mm_WhitePhosphorus.description>30x173mm 구경은 대포와 기관포 탄약의 특정 크기입니다.</Ammo_30x173mm_WhitePhosphorus.description>
+
+  <Ammo_30x173mm_WhitePhosphorus.label>30x173mm 카트리지(백린)</Ammo_30x173mm_WhitePhosphorus.label>
+  <Ammo_30x173mm_WhitePhosphorus.description>30x173mm 구경은 대포와 기관포 탄약의 특정 크기입니다.</Ammo_30x173mm_WhitePhosphorus.description>
 
 
- <!-- 발사체 -->
+  <!-- Projectiles -->
 
- <Bullet_30x173mm_WhitePhosphorus.label>30x173mm 총알(백인)</Bullet_30x173mm_WhitePhosphorus.label>
+  <Bullet_30x173mm_WhitePhosphorus.label>30x173mm 총알(백인)</Bullet_30x173mm_WhitePhosphorus.label>
+
+
+  <!-- 발사체 -->
+
 </LanguageData>
